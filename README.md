@@ -48,7 +48,7 @@ laufen,to run
 das Haus,the house
 ```
 
-Save as UTF-8 encoding. Send it to your phone via any method (LocalSend, email, Google Drive) and import it in the app.
+Save as UTF-8 encoding. Send it to your phone via any method (LocalSend, email, Google Drive) and import it in the app. You can use `lexicon_de_en.csv` as a template and start your learning.
 
 ---
 

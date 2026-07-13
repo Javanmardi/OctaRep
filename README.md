@@ -1,4 +1,4 @@
-# Tick Eight 📚
+# OctaRep 📚
 
 A spaced repetition vocabulary learning app built with React Native and Expo.
 Inspired by the Leitner system — each word is reviewed for 8 consecutive days before being retired.
@@ -71,8 +71,8 @@ Save as UTF-8 encoding. Send it to your phone via any method (LocalSend, email, 
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/TickEight.git
-cd TickEight
+git clone https://github.com/yourusername/OctaRep.git
+cd OctaRep
 npm install
 npx expo start
 ```
@@ -93,7 +93,7 @@ eas build -p android --profile preview
 ## Project Structure
 
 ```
-TickEight/
+OctaRep/
 ├── App.js          ← Entire application
 ├── app.json        ← Expo configuration
 ├── eas.json        ← EAS build configuration

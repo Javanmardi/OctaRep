@@ -1,4 +1,4 @@
-// App.js — Tick Eight (Expo / React Native)
+// App.js — OctaRep (Expo / React Native)
 // Dependencies: expo-document-picker, expo-file-system, @react-native-async-storage/async-storage
 
 import React, { useState, useEffect } from 'react';
@@ -39,19 +39,19 @@ const getActiveBatches = (day, totalBatches) => {
 // ─── Persistent Storage ───────────────────────────────────────────────────────
 const db = {
   getCourses: async () => {
-    const raw = await AsyncStorage.getItem('tick8_courses');
+    const raw = await AsyncStorage.getItem('octarep_courses');
     return raw ? JSON.parse(raw) : [];
   },
   saveCourses: (courses) =>
-    AsyncStorage.setItem('tick8_courses', JSON.stringify(courses)),
+    AsyncStorage.setItem('octarep_courses', JSON.stringify(courses)),
   getCourseData: async (id) => {
-    const raw = await AsyncStorage.getItem(`tick8_data_${id}`);
+    const raw = await AsyncStorage.getItem(`octarep_data_${id}`);
     return raw ? JSON.parse(raw) : null;
   },
   saveCourseData: (id, data) =>
-    AsyncStorage.setItem(`tick8_data_${id}`, JSON.stringify(data)),
+    AsyncStorage.setItem(`octarep_data_${id}`, JSON.stringify(data)),
   deleteCourseData: (id) =>
-    AsyncStorage.removeItem(`tick8_data_${id}`),
+    AsyncStorage.removeItem(`octarep_data_${id}`),
 };
 
 // ─── Root Component ───────────────────────────────────────────────────────────
@@ -234,7 +234,7 @@ export default function App() {
       <StatusBar backgroundColor={DARK_INDIGO} barStyle="light-content" />
 
       <View style={s.header}>
-        <Text style={s.headerTitle}>Tick Eight</Text>
+        <Text style={s.headerTitle}>OctaRep</Text>
         <Text style={s.headerSub}>Spaced Repetition</Text>
       </View>
 

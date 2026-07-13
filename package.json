@@ -1,6 +1,6 @@
 {
-  "name": "tickeight",
-  "version": "1.0.0",
+  "name": "octarep",
+  "version": "0.2.0",
   "main": "index.js",
   "scripts": {
     "start": "expo start",

@@ -2,25 +2,20 @@
   "expo": {
     "name": "OctaRep",
     "slug": "OctaRep",
-    "version": "0.2.0-Alpha",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": false,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "edgeToEdgeEnabled": true,
       "package": "com.javanmardi.OctaRep"
     },
     "web": {
@@ -28,7 +23,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "be5b4373-e854-4bb4-97ca-2997b2e267ca"
+        "projectId": "727a2af0-234c-456b-9256-d1bee2ee66a9"
       }
     }
   }
